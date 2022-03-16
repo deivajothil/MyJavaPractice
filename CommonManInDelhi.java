@@ -1,5 +1,8 @@
 package india.newDelhi;
-public class CommonManInDelhi implements TrafficRulesDelhi
+//javac -d . CommonManInDelhi.java
+//java india.newDelhi.CommonManInDelhi  --checked
+import tamilnadu.chennai.TrafficRulesChennai;
+public class CommonManInDelhi implements TrafficRulesDelhi,TrafficRulesChennai
 {
 public static void main(String arg[])
 {
@@ -14,6 +17,6 @@ System.out.println("dontGoByDieselVehicle method in CommonManInDelhi");
 }
 public void goByBicycle()
 {
-System.out.println("dontGoByDieselVehicle method in CommonManInDelhi");
+System.out.println("goByBicycle method in CommonManInDelhi");
 }
 }
