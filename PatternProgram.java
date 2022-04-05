@@ -59,6 +59,19 @@ for (int row = 1;row <= 5; row++)
 }
 
 
+
+//another method
+int col =1; int val = 0;
+for(int row=5; row>0; row--)
+{
+val = val + row; 
+for(;col<=val;col++){
+System.out.print(col+" "); 
+}
+System.out.println(); 
+}
+
+
 	}
 
 }
